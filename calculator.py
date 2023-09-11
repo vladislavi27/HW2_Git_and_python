@@ -1,3 +1,3 @@
 # subtraction  function
-def subtract(num1: int, num2: int) -> int:
+def subtract(num1, num2):
     return num1 - num2
