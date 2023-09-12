@@ -16,5 +16,13 @@ def main(task):
     elif mode == '/':
         return division(num1, num2)
 
-main (task)
+def division(num1, num2):
+    if num2 == 0:
+        print("Error: can't divide by zero! :(")
+    else:
+        return print(num1 / num2)
+
+
+main(task)
+
 
