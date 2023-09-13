@@ -24,6 +24,9 @@ Enter your expression:exit
 ```
 
 ### Autors:
+
+*This is the repo for the second homework of the BI Python 2023 course*
+
 - Badmadashiev Dorzhi
 - Vedekhina Veronika
 - Tulyavko Vlada
@@ -31,5 +34,5 @@ Enter your expression:exit
 - Vaganova Polina
 
 
-![Our team](team) 
+![Our team](./team.jpg) 
 
