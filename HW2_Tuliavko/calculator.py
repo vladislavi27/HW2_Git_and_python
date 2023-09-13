@@ -13,6 +13,8 @@ def main():
 # dictionary with functions names
 operations = {'/': division,
               '-': subtraction,
+              '+': addition,
+              '*': multiplication
               }
 # start calculations
 result = main()
