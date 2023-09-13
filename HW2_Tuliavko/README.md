@@ -8,7 +8,7 @@ Key packages and programs:
 
 ### Run calculator:
 
-Execute `extract_interface_residues.py` script provided here to start calculations. Then enter your expression in the line below in following format: the first number, the operation sign + for sum, - for subsctraction, / for division or \* for multiplication and the second number. Note that numbers must be separated by a space from the sign!! To run calculations press the `Enter` key. After getting the answer, you can continue enter your expressions or type `exit` to stop.
+Execute `extract_interface_residues.py` script provided here to start calculations. Then enter your expression in the line below in following format: the first number, the operation sign + for sum, - for subsctraction, / for division or \* for multiplication and the second number. Note that numbers must be separated by a space from the sign!! To run calculations press the `Enter` key.
 
 For example:
 ```
@@ -17,10 +17,6 @@ python extract_interface_residues.py
 # input expressions
 Enter your expression:1 + 2
 3
-Enter your expression:2 / 2
-1
-# stop calculating
-Enter your expression:exit
 ```
 
 ### Autors:
