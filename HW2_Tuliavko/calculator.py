@@ -1,13 +1,21 @@
-# subtraction  function
-def subtract(num1, num2):
+# definitions of functions
+def subtraction(num1, num2):
     return num1 - num2
 
-task = input()
-task = task.split(" ")
-def main(task):
-    if task[1] == "-":      
-        result = substract(task[0],task[1])
-    elif task[1] == "+":
-        
-    return result
-    
+def main():
+    task = input('Enter your expression:')
+    task = task.split(" ")
+    num1, num2 = float(task[0]), float(task[2])
+    mode = task[1]
+    return operations[mode](num1, num2)
+
+
+# dictionary with functions names
+operations = {'/': division,
+              '-': subtraction,
+              '+': addition,
+              '*': multiplication
+              }
+# start calculations
+result = main()
+print(result)
