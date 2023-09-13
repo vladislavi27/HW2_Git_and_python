@@ -2,6 +2,10 @@
 def subtraction(num1, num2):
     return num1 - num2
 
+
+def multiplication(num1, num2):
+    return num1 * num2
+
 def main():
     task = input('Enter your expression:')
     task = task.split(" ")
