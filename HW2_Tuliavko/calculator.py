@@ -2,6 +2,10 @@
 def subtraction(num1, num2):
     return num1 - num2
 
+
+def multiplication(num1, num2):
+    return num1 * num2
+
 def main():
     task = input('Enter your expression:')
     task = task.split(" ")
@@ -9,8 +13,6 @@ def main():
     mode = task[1]
     return operations[mode](num1, num2)
 
-def multiplication(num1, num2):
-    return num1 * num2
 
 # dictionary with functions names
 operations = {'/': division,
