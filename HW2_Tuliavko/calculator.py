@@ -6,6 +6,12 @@ def subtraction(num1, num2):
 def multiplication(num1, num2):
     return num1 * num2
 
+def division(num1, num2):
+    if num2 == 0:
+        print('Error: division by zero! :(')
+    else:
+        return num1 / num2
+
 def main():
     task = input('Enter your expression:')
     task = task.split(" ")
