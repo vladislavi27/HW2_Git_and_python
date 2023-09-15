@@ -19,7 +19,7 @@ Enter your expression:1 + 2
 3
 ```
 
-### Autors:
+### Authors:
 
 *This is the repo for the second homework of the BI Python 2023 course*
 
